@@ -3,6 +3,10 @@ import sys
 sys.path.append(
     os.path.dirname(os.path.abspath(__file__))
 )
+# Print all paths in sys.path
+print("Paths in sys.path:")
+for path in sys.path:
+    print(path)
 
 import copy
 import torch
